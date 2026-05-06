@@ -15,8 +15,8 @@ void main() {
   List<int> umurMahasiswa = [22, 22, 19, 21, 18, 23];
   List<double> tinggiMahasiswa = [175.5, 186.8, 171.6, 151.2, 162.3, 195.3];
   List<String> bukuFavoritMahasiswa = [
-    "Beyond good and evil",
-    "The Myth of sysyphys",
+    "Beyond Good and Evil",
+    "The Myth of Sisyphus",
     "Fundamental Principles of the Metaphysic of Morals",
     "Jujutsu Kaisen",
     "Crime and Punishment",
@@ -121,12 +121,11 @@ void tampilkanBiodata(List<Map<String, dynamic>> data) {
     print("\n");
   }
 }
+/* Note pribadi tugas 1: 
 
-/* Note tugas 1: 
-
-Dapat dijalankan juga seperti:
+No. 3 (tampilan output) Dapat dijalankan juga seperti:
 void tampilkanBiodata(List<Map<String, dynamic>> data) {
-  for (Map<String, dynamic> mhs in data) { //Menggunakan Map<String, dynamic> dibanding menggunakan var
+  for (Map<String, dynamic> mhs in data) { //Menggunakan Map<String, dynamic> dibanding menggunakan syntax var
     print("Nama: ${mhs['nama']}");
     print("Umur: ${mhs['umur']} tahun");
     print("Tinggi: ${mhs['tinggi']} cm");
@@ -140,4 +139,9 @@ void tampilkanBiodata(List<Map<String, dynamic>> data) {
 }
 
 Syntax ${blabla['declare']} digunakan untuk memanggil tipe data dengan akurat
-Syntax ${mhs['aktif'] ? 'Aktif' : 'Tidak Aktif'}") logika operator untuk tes nilai boolean*/
+Syntax ${mhs['aktif'] ? 'Aktif' : 'Tidak Aktif'}") logika operator untuk tes nilai boolean
+
+[ = berfungsi seperti rak sepatu, tempat untuk menambahkan objek dan mengurutkan objek
+{ = berfungsi seperti kotak penyimpanan, tempat untuk menambahkan nilai/label/ info detil pada objek
+\n = berfungsi membuat jarak antar objek agar lebih mudah dibaca
+*/
