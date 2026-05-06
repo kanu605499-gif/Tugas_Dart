@@ -12,7 +12,7 @@ void main() {
     "Tini",
     "Abdul",
   ];
-  List<int> umurMahasiswa = [22, 22, 19, 21, 18, 23];
+  List<int> umurMahasiswa = [23, 22, 19, 21, 18, 23];
   List<double> tinggiMahasiswa = [175.5, 186.8, 171.6, 151.2, 162.3, 195.3];
   List<String> bukuFavoritMahasiswa = [
     "Beyond Good and Evil",
